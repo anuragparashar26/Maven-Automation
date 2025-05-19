@@ -1,8 +1,12 @@
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-public class LoginTest{
-    public static void main(String[] args) throws InterruptedException {
+
+public class LoginTest {
+
+    @Test
+    public void testLogin() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
         driver.manage().window().maximize();
@@ -16,3 +20,4 @@ public class LoginTest{
         driver.quit();
     }
 }
+
