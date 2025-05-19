@@ -1,4 +1,4 @@
-# Maven Selenium Automation
+# Maven Automation
 
 ## Overview
 
